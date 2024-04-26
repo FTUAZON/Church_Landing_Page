@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GBC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Guadalupe Bpatist Church" />
+	<meta name="keywords" content="Church, Landing Page, GBC, Program, Gudalupe, Baptist, SBC, Koronadal" />
+	<meta name="author" content="Fritz" />
+	<link rel="icon" href="images/church Logo.png">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Estonia" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+	<!-- css files -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lightgallery-bundle.min.css" />
+	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-thumbnail.css" />
+	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-autoplay.css" />
+	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-fullscreen.css" />
+	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-transitions.css" />
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<div class="fh5co-loader"></div>
+<div id="page">
+
+	<!--Floating button-->
+	<div id="bottom-floating-button" class="float">
+		<div class="control-center open">
+			<ul class="right-sidebar">
+				<!--Video-->
+				<li onclick="scrollToElement('fh5co-services')" class="li3"></li>
+				<!-- About -->
+				<li onclick="scrollToElement('about')" class="li4"></li>
+			</ul>
+			<!--Home-->
+			<div onclick="scrollToElement('header')" class="option-btn open"></div>
+			<ul class="left-sidebar">
+				<!--Services-->
+				<li onclick="scrollToElement('fh5co-event')" class="li1"></li>
+				<!-- Announcemennt -->
+				<li onclick="scrollToElement('fh5co-couple')" class="li2"></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+		<!-- Welcome Page -->
+		<div id="overlay">
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<img src="images/church Logo.png" alt="" class="couple-main">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h1>Guadalupe Baptist Church</h1>
+							<p>Welcome to Guadalupe Baptist Church's Website</p>
+							<button class="btn btn-primary" id="open-invitation">Click to Enter</button>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Pop-up overlay | Script and CSS below-->
+				<div id="popup-overlay"></div>
+				<div id="popup">
+					<span class="close-btn" onclick="closePopup()">X</span><br>
+					<h3 class="jumping-pulsating" style="color: #ca0000;">URGENT ANNOUNCEMENT</h3>
+					<h2 style="color: #ca0000;">There will be no sunday school until further notice due to heat wave</h2>
+					<h2 style="color: #ca0000;">SUNDAY WORSHIP SERVICE WILL START AT 6AM SHARP EVERY SUNDAY!</h2>
+					<h2 style="color: #ca0000;">God Bless and Stay Hydrated</h2>
+				</div>
+
+
+
+				
+				<!-- Marquee container -->
+				<div id="marquee-container" style="position: fixed; bottom: 0; width: 100%;">
+					<!-- Marquee with small image and text -->
+					<marquee behavior="scroll" direction="left" style="background-color: darkblue; padding: 10px; color: white;">
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						&nbsp;&nbsp;&nbsp;WEEKLY SCHEDULE OF MINISTRIES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						Prayer Meeting: Every Wednesday @ 6:00PM, We are inviting everyone to pray with us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						Operation Christmas Child (OCC) every Saturday @ 8:00AM and Sunday After Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						Praise and Worship Practice every SATURDAY @ 12:00NN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						Sunday School @ 8:00AM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="images/church Logo.png" alt="Church Logo" style="height: 30px; margin-right: 20px;">
+						Church worship Service @ 10:00AM
+					</marquee>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	<!-- Header -->
+	<div>
+		<header id="header">
+			<video autoplay loop muted>
+			  <source src="images/Video/Simbahan.mp4" type="video/mp4">
+			</video>
+		</header>
+		<div class="centered-container">
+			<img src="images/logo2.png" alt="" class="logo-image mx-auto">
+		</div>		
+	</div>	
+	
+
+
+
+
+	<!-- Announcements | Style Below-->
+	<div style="background-image:url('images/background/repeat-background/ricepaper2.png');">
+	<div id="fh5co-couple" style="padding-top: 20%;">
+		<div class="container">
+				<div class="col-md-8 col-md-offset-2 fh5co-heading animate-box">
+					<h1 style="text-align: center; font-weight: bold; color: #ca0000;">Announcements!</h1>
+					<p style="color: #bf9b73; text-align: center;">...</p>
+					<h4 style="text-align: center; font-weight: bold;">Weekly Schedule of Ministries</h4>
+					<ul style="padding-left: 0; list-style-type: none;">
+						<li>Prayer Meeting:&nbsp;<strong> Wednesday [6:00PM]</strong></li>
+						<li>Prayer Meeting Speaker:&nbsp;<strong> Mrs. Maruja Laprades</strong></li>
+						<li>Family Presentation April 28:&nbsp;<strong> Laco, Macabit, & Pamposa Family</strong></li>
+						<li>Church Worship Service:&nbsp;<strong style="color: #ca0000;"> [6:00AM]</strong></li>
+						<li>Sunday School:&nbsp;<strong style="color: #ca0000; font-style: italic;"> There will be no sunday school until further notice due to heat wave, SUNDAY WORSHIP SERVICE WILL START AT 6AM SHARP</strong></li>
+					</ul>
+					<br><br>
+					<h4 style="text-align: center; font-weight: bold;">Operation Christmas Child (OCC)</h4>
+					<ul style="padding-left: 0; list-style-type: none;">
+						<li>April 27:&nbsp;<strong> Saturday [8:30AM]</strong></li>
+						<li>Merienda Schedule:&nbsp;<strong> Patriarca Family</strong></li>
+						<li>April 28:&nbsp;<strong> Sunday [8:30AM]</strong></li>
+						<li>Merienda Schedule:&nbsp;<strong> Sornito, Mallorca, & Ecalne Family</strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+
+
+	<!-- Latest Activities -->
+	<div style="background-image:url('images/background/repeat-background/so-white.png');">
+	<div id="about" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Latest Activities</h2>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-flag"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Operation Christmas Child (OCC)</h3>
+							<p style="text-align: left; margin-top: 10px;">
+								Guadalupe Baptist Church, in partnership with Samaritan's Purse OCC, conducted an outreach program where GBC distributed over 80 gifts to the children in its community. They also held a month-long lecture series called 'The Greatest Journey.<br><br>
+								The classes for 'The Greatest Journey' are ongoing. Children ages 6-15 can join the classes to learn about God.&nbsp;<strong style="color: #ca0000;">Class will end on May 18, 2024</strong> <br><br>
+								For Inquiries you can reach us at; <br><strong style="color: blue;">09709064325 </strong>
+							</p>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 animate-box"> <!-- Added col-xs-12 for mobile view -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="866" height="487" src="https://www.youtube.com/embed/HpJdyK1KzNk" title="OCC Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+	<!-- Church Services -->
+	<!--	style="background-image:url('images/background/blue-brush-2.jpg');"-->
+	<div style="background-image:url('images/background/repeat-background/so-white.png');">
+	<div id="fh5co-event" class="fh5co-bg" style="border-top: 1px solid #f2f2f2;">
+		<div class="container">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Church Services</h2>
+				</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<!-- Christening Box -->
+					<div class="service-box">
+						<div class="col-md-6 col-sm-6 text-center event-wrap animate-box">
+							<h3 style="font-family: 'Oswald', Arial, serif;">Christening</h3>
+							<button onclick="toggleDropdown(this)" style="display: block; margin: auto;">Click me</button>
+							<div class="content" style="display: none;">
+								<p style="font-family: 'Courgette', Arial, serif">Click to Schedule</p>
+								<a href="https://forms.gle/7QkhJNUogBCMuWhq8" class="btn btn-primary">Google form <i class="icon-book"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Baptism Box -->
+					<div class="service-box">
+						<div class="col-md-6 col-sm-6 text-center event-wrap animate-box">
+							<h3 style="font-family: 'Oswald', Arial, serif;">Baptism</h3>
+							<button onclick="toggleDropdown(this)" style="display: block; margin: auto;">Click me</button>
+							<div class="content" style="display: none;">
+								<p style="font-family: 'Courgette', Arial, serif">Click to Schedule</p>
+								<a href="https://forms.gle/KfnF6mFXa8kWysJb8" class="btn btn-primary">Google form <i class="icon-book"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Funeral Service Box -->
+					<div class="service-box">
+						<div class="col-md-6 col-sm-6 text-center event-wrap animate-box">
+							<h3 style="font-family: 'Oswald', Arial, serif;">Funeral Service</h3>
+							<button onclick="toggleDropdown(this)" style="display: block; margin: auto;">Click me</button>
+							<div class="content" style="display: none;">
+								<p style="font-family: 'Courgette', Arial, serif">Click to Schedule</p>
+								<a href="https://forms.gle/EH7A2BYEANBejQ2B6" class="btn btn-primary">Google form <i class="icon-book"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Wedding Service Box -->
+					<div class="service-box">
+						<div class="col-md-6 col-sm-6 text-center event-wrap animate-box">
+							<h3 style="font-family: 'Oswald', Arial, serif;">Wedding Service</h3>
+							<button onclick="toggleDropdown(this)" style="display: block; margin: auto;">Click me</button>
+							<div class="content" style="display: none;">
+								<p style="font-family: 'Courgette', Arial, serif">Click to Schedule</p>
+								<a href="https://forms.gle/75uwUy28VHiXQAneA" class="btn btn-primary">Google form <i class="icon-book"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+	<!-- About Guadalupe Baptist Church -->
+	<div id="fh5co-services" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Guadalupe Baptist Church</h2>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-open-book"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Church Testimony</h3>
+							<p>
+								As members of the Guadalupe Baptist Church, 
+								we proudly share our collective testimony with 
+								the world. From the day of our establishment, our 
+								church has encountered numerous challenges, yet our 
+								faith community remains steadfast, founded on the 
+								unshakable rock of our beliefs. Throughout the trials 
+								posed by the pandemic, we persevered in our commitment 
+								to worship and ministry without wavering. In the midst 
+								of suffering, our unwavering faith in Jesus sustained 
+								us, and in return, we've been abundantly blessed—a 
+								testament to the enduring strength of our shared 
+								devotion
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 animate-box"> <!-- Added col-xs-12 for mobile view -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/3W8_YJdnFRw" title="Thanksgiving" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- About Pastor
+	<div id="about" class="hero min-h-screen bg-base-200" style="padding-top: 50px; padding-bottom: 50px;">
+		<h1 style="font-weight: bold; color: #050150; margin-left: 10px; font-size: 50px;">Our Pastor</h1>
+		<div class="col-md-12 text-center">
+			<img src="images/pastor2.jpg" class="max-w-sm rounded-lg shadow-2xl" style="width: 250px; height: 170px;" />
+			<div>
+				<div style="margin-bottom: -5px;"> 
+					<h1 style="text-align: center; font-weight: bold; color: #060075; text-decoration: underline;">Pastor Philip T. Sales</h1>
+				</div>
+				<h2 style="text-align: center; font-weight: bold; color: #000000;">Head Pastor [GBC]</h2>
+				<p style="text-align: center; margin-top: 10px;">
+					Pastor Philip T. Sales graduated from SBC Mlang with a degree in Theology. He is a father of two and married to Mrs. Mary Ann Sales. Pastor Sales was called in 2016 and has been serving at Guadalupe Baptist Church for nine years as of today.
+				</p>
+			</div>
+		</div>
+	</div> -->
+	
+
+
+
+
+	<!-- Church Tagline -->
+	<div id="fh5co-ayat">
+		<img height="700" width="1400px" style="position: absolute; bottom: -170px" src="images/background/wave-down.svg">
+		<div class="container">
+			<div class="ayat-content animate-box" style="padding-top: 100px; text-align: center;">
+				<img src="images/church Logo.png" alt="" class="couple-main mx-auto" style="width: 100px; height: 100px; ">
+				<p style="padding-top: 50px;">
+					"Holding forth the word of life; that I may rejoice in the day of Christ, that I have not run in vain, neither laboured in vain."
+				</p>
+				<b>- Philippians 2:16 (KJV) -</b>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+	<!-- Author's Footer -->
+	<footer id="fh5co-footer" role="contentinfo" style=" padding-top:50px url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat">
+		<div class="container">
+			<div class="row copyright animate-box">
+				<div class="col-md-12 text-center">
+					</p>
+					<img src="images/church Logo.png" width="100" height="100">
+					<div style="padding-bottom: 20px;"></div>
+					<h1 style="font-family: 'Satisfy', Arial, serif">Guadalupe Baptist Church</h1>
+					<div class="container">
+						<p class="element-with-padding"></p>
+					</div>					
+					<p>
+						© Copyright 2024 GBC All Rights Reserved </br>
+						<small>Email: guadalupebcofficial@gmail.com </small><br>
+						<small>Mobile Number: 09709064325</small><br>
+						<ul class="fh5co-social-icons">
+							<li><a href="tel:09709064325"><i class="icon-phone"></i></a></li>
+							<li><a target="_blank" href="https://tuazon-onlineportfolio.vercel.app/"><i class="icon-globe"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/fritz-tuazon-585157235/"><i class="icon-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://web.facebook.com/groups/418134648940606/"><i class="icon-facebook"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!--</div>-->
+
+
+<!-- JS Files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/simplyCountdown.js"></script>
+<script src="js/main.js"></script>
+
+<script src="lib/lightgallery.js/dist/lightgallery.min.js"></script>
+<script src="lib/lightgallery.js/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="lib/lightgallery.js/dist/plugins/autoplay/lg-autoplay.min.js"></script>
+<script src="lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+
+<!-- Script For countdwon -->
+<script>
+	day = 19; month = 11-1; year = 2023;
+	hour = 8; minute = 0;
+	var d = new Date(year, month, day, hour, minute, 0, 0);
+
+	// default example
+	simplyCountdown('.simply-countdown-wedding', {
+		year: d.getFullYear(),
+		month: d.getMonth() + 1,
+		day: d.getDate(),
+		hour: d.getHours(),
+		minutes: 0, // Default is 0 [0-59] integer
+		seconds: 0, // Default is 0 [0-59] integer
+		countUp: true
+		// enableUtc: true
+	});
+
+	$('#open-invitation').click(function (){
+		$('#overlay').addClass('hide-overlay');
+		playAudio1();
+	});
+
+	$.get( "https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues?state=all&per_page", function( data ) {
+		for (let i = 0; i < data.length; i++){
+			const item = `
+				<a class="list-group-item">
+					<div class="name"><span class="strong" style="font-size: 24px">${data[i].user.login}</span> <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
+					<hr style="margin-top: 0;">
+					<div class="comment">${new showdown.Converter().makeHtml(data[i].body)}</div>
+				</a>
+			`;
+
+			$("#fh5co-testimonial .list-group").append(item);
+		}
+	});
+
+	function scrollToElement(el) {
+		$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
+	}
+</script>
+
+<!-- Script for Srvices -->
+<script>
+	function toggleDropdown(buttonElement) {
+		// Get all content divs and "Click me" buttons
+		var allContentDivs = document.querySelectorAll('.content');
+		var allButtons = document.querySelectorAll('.service-box button');
+		
+		// Hide all content divs and show all buttons
+		allContentDivs.forEach(function(contentDiv) {
+			contentDiv.style.display = "none";
+		});
+		allButtons.forEach(function(button) {
+			button.style.display = "block";
+		});
+
+		// Get the current button's content div
+		var contentDiv = buttonElement.nextElementSibling;
+
+		// Toggle the clicked content div
+		if (contentDiv.style.display === "none" || contentDiv.style.display === "") {
+			contentDiv.style.display = "block";
+			buttonElement.style.display = "none";
+		} else {
+			contentDiv.style.display = "none";
+			buttonElement.style.display = "block";
+		}
+	}
+	</script>
+
+	<!-- Script for Popup Modal -->
+	<script>
+		// Function to show the pop-up and overlay
+		function showPopup() {
+			document.getElementById('popup').style.display = 'block';
+			document.getElementById('popup-overlay').style.display = 'block';
+		}
+
+		// Function to close the pop-up and overlay
+		function closePopup() {
+			document.getElementById('popup').style.display = 'none';
+			document.getElementById('popup-overlay').style.display = 'none';
+		}
+
+		// Show the pop-up when the page loads
+		window.onload = function () {
+			showPopup();
+		};
+	</script>
+
+	<!-- Style for Popup Modal Announcement -->
+	<style>
+		#popup {
+			display: none;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			background-color: white;
+			border: 1px solid #ccc;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+			z-index: 1000;
+			width: 80%;
+		}
+
+		#popup .close-btn {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			cursor: pointer;
+		}
+
+		#popup-overlay {
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 999;
+		}
+
+		/* Keyframes for the pulsating effect */
+		@keyframes pulsate {
+			0%, 100% {
+				text-shadow: 0 0 10px rgba(202, 0, 0, 1);
+			}
+			50% {
+				text-shadow: 0 0 20px rgba(202, 0, 0, 1);
+			}
+		}
+
+		/* Keyframes for the jumping effect */
+		@keyframes jump {
+			0%, 100% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-10px);
+			}
+		}
+
+		/* Combine the animations and apply them to the h3 element */
+		h3.jumping-pulsating {
+			animation: jump 0.5s infinite ease-in-out, pulsate 1.5s infinite;
+		}
+	</style>
+
+
+	<!-- Style for Announcemennt -->
+	<style>
+		@media (max-width: 767px) {
+			.fh5co-heading {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+	
+			ul {
+				padding-left: 15px;
+			}
+		}
+	</style>
+</body>
+</html>
+
